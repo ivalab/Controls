@@ -13,8 +13,9 @@ and in real-time. As part of the analysis, we observe that persistent
 excitation of the neural network is not equivalent to persistent
 excitation of the states.  The observation is used to define an online
 network restructuring technique that ensure good approximation
-capabilities given an upper bound on the network size.  Lyapunov methods
-prove stabilization of the neuroadaptive control technique.
+capabilities given an upper bound on the network size.  
+Proof of stabilization for the neuroadaptive control technique relies on
+Lyapunov stability theory.
 <!--more-->
 
 

@@ -9,7 +9,7 @@ googleAnalytics = ""
 
 [params]
   style = "sea"
-  title = "IVALab:RoboSLAM"
+  title = "IVALab:Controls"
   description = "Research efforts related to learning and adaptation in control."
   copyright = ""
   support = "Research supported in part by National Science Foundation.  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation."
@@ -43,4 +43,4 @@ googleAnalytics = ""
 
   [params.social]
   github  = "https://github.com/ivalab"
-  github2  = "https://github.com/ivaROS"
+  github2 = "https://github.com/ivaROS"
