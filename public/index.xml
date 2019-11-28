@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Controls Research</title>
+    <link>https://ivalab.github.io/Controls/public/</link>
+    <description>Recent content on Controls Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ivalab.github.io/Controls/public/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IVALab Controls - Robots</title>
+      <link>https://ivalab.github.io/Controls/public/robots/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/Controls/public/robots/</guid>
+      <description>So far, our lab has only implemented the control algorithms on simulated scenarios and not on robots we have. However, the algorithms have been applied to robots or autonomous machines associated to colleagues and former collaborators. We are currently in the process of putting together some sufficiently dynamic robots to deploy ourselves.</description>
+    </item>
+    
+    <item>
+      <title>Budgeted Kernel Restructuring</title>
+      <link>https://ivalab.github.io/Controls/public/research/bkrcl/</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/Controls/public/research/bkrcl/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; BKR-CL describes an adaptive control technique employing
+machine learning tools and analysis to prove stabilization of a
+neuro-adaptive control system that learns the network structure online
+and in real-time. As part of the analysis, we observe that persistent
+excitation of the neural network is not equivalent to persistent
+excitation of the states.  The observation is used to define an online
+network restructuring technique that ensure good approximation
+capabilities given an upper bound on the network size.  Lyapunov methods
+prove stabilization of the neuroadaptive control technique.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IVALab Controls Research</title>
+      <link>https://ivalab.github.io/Controls/public/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/Controls/public/about/</guid>
+      <description>Our research on this front stems from recent research related to Adaptive Control. Neuro-adaptive control historically involved a fixed network structure whose parametric values (or weights) evolved. However, the machine learning community has devised many schemes for data-driven creation of equivalent neural network structures. Our question was: how could machine learning theory and adaptive control theory be united in order to create a truly adaptive system from zero knowledge? Here zero knowledge means that the network starts with no nodes (e.</description>
+    </item>
+    
+  </channel>
+</rss>
