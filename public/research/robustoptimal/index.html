@@ -135,13 +135,42 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>IVALab Controls - Robots</h1>
-         <p>So far, our lab has only implemented the control algorithms on simulated
-scenarios and not on robots we have.  However, the algorithms have been
-applied to robots or autonomous machines associated to <a href="../about/">colleagues and
-former collaborators</a>.  We are currently in the process of putting
-together some sufficiently dynamic robots to deploy ourselves.</p>
-
+         <h1>Robust (Point-wise) Optimal Adaptive Control</h1>
+         <p><strong>Abstract:</strong> Employing modern control Lyapunov methods with modern
+adaptive control methods leads to an adaptive control system with
+strong trajectory tracking performance with sub-optimality properties.
+Concurrent learning adaptive elements provide the robustness needed to
+handle large parameter variation. Extension of the method improves
+robustness of safety margins to uncertainty when using control barrier
+functions.</p>
+<p>This work represents our first attempt at merging modern nonlinear
+control techniques with modern adaptive control techniques.  Doing so
+leads to some interesting differences when compared to classical model
+reference adaptive control.  In fact, the approach looks more like
+earlier methods of adaptive control (from the 90's) that did not
+include a model reference. However, with contemporary insights into how
+to structure adaptive control methods, we are now able to say more
+about the performance of these techniques.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>The last decade and some change has also seen an increase in research
+towards safety or safety constraint satisfaction during closed-loop
+operation.  Barriers and control barrier functions arose from the
+controls community's efforts. Since adaptive control adapts online
+uncertain parameters to meet a target Lyapunov stability specification,
+it is sensible to expect for adaptive control to integrate well with
+control barrier functions.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> In fact, doing so significantly improves
+performance of a system with a barrier constraint and uncertainty in
+the dynamics.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>V. Azimi and P.A. Vela. &ldquo;Performance Reference Adaptive Control: A Joint Quadratic Programming and Adaptive Control Framework.&rdquo; In <em>American Control Conference</em>, pp. 1827-1834, 2018.  <a href="https://ieeexplore.ieee.org/document/8431150">Abstract</a>. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>V. Azimi and P.A. Vela. &ldquo;Robust Adaptive Quadratic Programming and Safety Performance of Nonlinear Systems with Unstructured Uncertainties.&rdquo; In <em>IEEE Conference on Decision and Control</em>, pp. 5536-5543, 2018.  <a href="https://ieeexplore.ieee.org/document/8619728">Abstract</a>. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
          
       </div>
     </div>

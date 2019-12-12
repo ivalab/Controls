@@ -8,7 +8,7 @@ disqusShortname = ""
 googleAnalytics = ""
 
 [params]
-  style = "sea"
+  style = "ivalab"
   title = "IVALab:Controls"
   description = "Research efforts related to learning and adaptation in control."
   copyright = ""

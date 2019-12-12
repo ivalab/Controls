@@ -4,7 +4,22 @@
   
   <url>
     <loc>https://ivalab.github.io/Controls/public/</loc>
-    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/Controls/public/research/</loc>
+    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/Controls/public/research/robustoptimal/</loc>
+    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/Controls/public/research/gpmrac/</loc>
+    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -14,11 +29,6 @@
   
   <url>
     <loc>https://ivalab.github.io/Controls/public/research/bkrcl/</loc>
-    <lastmod>2019-11-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivalab.github.io/Controls/public/research/</loc>
     <lastmod>2019-11-20T00:00:00+00:00</lastmod>
   </url>
   
